@@ -9,6 +9,7 @@ use std::{
 };
 pub use tauri_utils::config::{parse::ConfigError, Config};
 
+mod blake3;
 mod context;
 pub mod embedded_assets;
 
