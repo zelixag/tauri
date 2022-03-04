@@ -7,12 +7,12 @@ rust-version = "1.57"
 license = "Apache-2.0 OR MIT"
 
 [build-dependencies]
-tauri-build = { path = "../../../core/tauri-build", features = ["isolation"] }
+tauri-build = { path = "../../../core/tauri-build" }
 
 [dependencies]
 serde_json = "1.0"
 serde = { version = "1.0", features = [ "derive" ] }
-tauri = { path = "../../../core/tauri", features = ["api-all", "cli", "isolation", "macos-private-api", "system-tray", "updater"] }
+tauri = { path = "../../../core/tauri", features = ["api-all", "cli", "macos-private-api", "system-tray", "updater"] }
 
 [features]
 default = [ "custom-protocol" ]
