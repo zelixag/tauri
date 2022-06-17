@@ -1,5 +1,10 @@
 # Changelog
 
+## \[0.9.1]
+
+- The theme API is now implemented on macOS 10.14+.
+  - [6d94ce42](https://www.github.com/tauri-apps/tauri/commit/6d94ce42353204a02fe9c82ed397d349439f75ef) feat(core): theme is now implemented on macOS ([#4380](https://www.github.com/tauri-apps/tauri/pull/4380)) on 2022-06-17
+
 ## \[0.9.0]
 
 - Upgrade to `stable`!

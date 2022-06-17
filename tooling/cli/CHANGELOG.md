@@ -1,5 +1,10 @@
 # Changelog
 
+## \[1.0.1]
+
+- Validate bundle identifier as it must only contain alphanumeric characters, hyphens and periods.
+  - [0674a801](https://www.github.com/tauri-apps/tauri/commit/0674a80129d7c31bc93257849afc0a5069129fed) fix: assert config.bundle.identifier to be only alphanumeric, hyphens or dots. closes [#4359](https://www.github.com/tauri-apps/tauri/pull/4359) ([#4363](https://www.github.com/tauri-apps/tauri/pull/4363)) on 2022-06-17
+
 ## \[1.0.0]
 
 - Upgrade to `stable`!

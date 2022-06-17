@@ -1,5 +1,12 @@
 # Changelog
 
+## \[1.0.1]
+
+- Set the bundle name in the Info.plist file in development mode.
+  - [7be997b9](https://www.github.com/tauri-apps/tauri/commit/7be997b97433fc24b9a2c1872490c57e6e77376b) feat(core): set macOS app bundle name in development ([#4381](https://www.github.com/tauri-apps/tauri/pull/4381)) on 2022-06-17
+- The theme API is now implemented on macOS 10.14+.
+  - [6d94ce42](https://www.github.com/tauri-apps/tauri/commit/6d94ce42353204a02fe9c82ed397d349439f75ef) feat(core): theme is now implemented on macOS ([#4380](https://www.github.com/tauri-apps/tauri/pull/4380)) on 2022-06-17
+
 ## \[1.0.0]
 
 - Allow choosing multiple folders in `dialog.open`.
